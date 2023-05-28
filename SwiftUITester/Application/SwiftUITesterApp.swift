@@ -11,7 +11,7 @@ import SwiftUI
 struct SwiftUITesterApp: App {
     var body: some Scene {
         WindowGroup {
-            SearchBar()
+            ParentView()
         }
     }
 }
