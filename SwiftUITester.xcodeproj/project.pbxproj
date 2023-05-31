@@ -29,6 +29,8 @@
 		A7124C7D2A23341400B84684 /* MessagesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7124C7C2A23341400B84684 /* MessagesManager.swift */; };
 		A7124C7F2A233A7600B84684 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = A7124C7E2A233A7600B84684 /* .gitignore */; };
 		A7124C812A233A9800B84684 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A7124C802A233A9800B84684 /* GoogleService-Info.plist */; };
+		A7489CD32A278ECB00C67AA1 /* GeoParentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7489CD22A278ECB00C67AA1 /* GeoParentView.swift */; };
+		A7489CD52A278ED500C67AA1 /* GeoChildView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7489CD42A278ED500C67AA1 /* GeoChildView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,6 +55,8 @@
 		A7124C7C2A23341400B84684 /* MessagesManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesManager.swift; sourceTree = "<group>"; };
 		A7124C7E2A233A7600B84684 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		A7124C802A233A9800B84684 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A7489CD22A278ECB00C67AA1 /* GeoParentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoParentView.swift; sourceTree = "<group>"; };
+		A7489CD42A278ED500C67AA1 /* GeoChildView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoChildView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +128,7 @@
 		A7124C272A23147600B84684 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				A7489CCE2A278E8A00C67AA1 /* TestingGeometryReader */,
 				A7124C642A2327D600B84684 /* FirebaseStoreChat */,
 				A7124C502A231F1100B84684 /* Navigation */,
 				A7124C4F2A231EE900B84684 /* SearchBar */,
@@ -239,6 +244,15 @@
 			path = Managers;
 			sourceTree = "<group>";
 		};
+		A7489CCE2A278E8A00C67AA1 /* TestingGeometryReader */ = {
+			isa = PBXGroup;
+			children = (
+				A7489CD22A278ECB00C67AA1 /* GeoParentView.swift */,
+				A7489CD42A278ED500C67AA1 /* GeoChildView.swift */,
+			);
+			path = TestingGeometryReader;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -319,7 +333,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				A7124C562A231FEC00B84684 /* BChildView.swift in Sources */,
+				A7489CD32A278ECB00C67AA1 /* GeoParentView.swift in Sources */,
 				A7124C5D2A2321AB00B84684 /* ParentObservedViewModel.swift in Sources */,
+				A7489CD52A278ED500C67AA1 /* GeoChildView.swift in Sources */,
 				A7124C662A23293D00B84684 /* ChatView.swift in Sources */,
 				A7124C7D2A23341400B84684 /* MessagesManager.swift in Sources */,
 				A7124C602A23261300B84684 /* GrandAChildView.swift in Sources */,

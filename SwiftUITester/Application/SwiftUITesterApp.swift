@@ -17,7 +17,7 @@ struct SwiftUITesterApp: App {
     
     var body: some Scene {
         WindowGroup {
-            ChatView()
+            GeoParentView()
         }
     }
 }
